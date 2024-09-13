@@ -1,0 +1,72 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.header, .footer {
+    background-color: #343a40;
+    color: white;
+}
+
+/* Logo styles */
+.logo {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+/* Hero section */
+#hero {
+    background-image: url('imagen/Fenix.Logo.PNG'); /* Replace with your hero image */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 5rem 0;
+}
+
+#hero h1 {
+    font-size: 3rem;
+}
+
+/* Container and section styles */
+.Container {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+/*.img-container {
+    background-image: url(imagen/Fenix.Logo.PNG);
+    background-repeat: no-repeat;
+}*/
+
+
+.img-container {
+    position: relative; /* Establishes a containing block for absolute positioning */
+    width: 100%; /* Full width of the parent column */
+    height: 300px; /* Fixed height */
+    overflow: hidden; /* Ensures content does not overflow */
+    background-color: #6c757d; /* Background color as a fallback */
+}
+
+.img-container img {
+    position: absolute; /* Position the image absolutely within the container */
+    top: 50%; /* Move the image down to the center */
+    left: 50%; /* Move the image right to the center */
+    transform: translate(-50%, -50%); /* Offset the image to truly center it */
+    width: auto; /* Maintain aspect ratio */
+    height: 100%; /* Ensure the image covers the container height */
+    object-fit: cover; /* Cover the container while maintaining aspect ratio */
+}
+
+
+
+.texto {
+    padding: 1rem;
+}
+
+.carta {
+    margin-bottom: 1rem;
+}
+
+.btn {
+    margin-top: 1rem;
+}
