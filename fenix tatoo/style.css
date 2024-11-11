@@ -58,7 +58,6 @@ body {
 }
 
 
-
 .texto {
     padding: 1rem;
 }
@@ -69,4 +68,39 @@ body {
 
 .btn {
     margin-top: 1rem;
+}
+
+/* Estilo para los íconos de redes sociales en el footer */
+.social-icons {
+    margin-top: 10px;
+}
+
+/* Espaciado y estilo de los enlaces de redes sociales */
+.social-icons a {
+    font-size: 30px; /* Tamaño de los íconos */
+    transition: color 0.3s ease; /* Efecto de transición al pasar el ratón */
+}
+
+.social-icons a:hover {
+    color: #1da1f2; /* Color para el hover (puedes cambiarlo por el color que prefieras) */
+}
+
+.social-icons a i {
+    padding: 0 15px; /* Espaciado horizontal entre los íconos */
+}
+
+/* Personalizar los colores por defecto de los íconos */
+.social-icons a {
+    color: white; /* Color blanco por defecto */
+}
+
+/* Añadir estilos para pantallas más pequeñas (responsive) */
+@media (max-width: 768px) {
+    .social-icons {
+        margin-top: 20px;
+    }
+
+    .social-icons a {
+        font-size: 25px; /* Reducir tamaño de los íconos en pantallas pequeñas */
+    }
 }
