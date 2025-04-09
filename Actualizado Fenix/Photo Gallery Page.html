@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería de Fotos - Fenix Tattos</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="bg-dark text-white py-3">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <a class="navbar-brand" href="index.html">🏠 Inicio</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#somos-fenix">Quiénes Somos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#nuestros-servicios">Nuestros Servicios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="gallery.html">Ver galería</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contactanos.html">Contáctanos</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section id="galeria" class="py-5">
+        <div class="container">
+            <h2 class="text-center">Galería de Fotos</h2>
+            <!-- Carrusel de imágenes -->
+            <div id="carouselExampleControls" class="carousel slide mb-5" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="imagen/Imagen1.png" class="d-block w-100" alt="Foto 1">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="imagen/Tattoo-Art-Wallpapers-013.jpg" class="d-block w-100" alt="Foto 2">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="imagen/imagen2.jpg" class="d-block w-100" alt="Foto 3">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="imagen/imagen4.jpg" class="d-block w-100" alt="Foto 4">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="imagen/imagen5.jpg" class="d-block w-100" alt="Foto 5">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="imagen/imagen6.jpg" class="d-block w-100" alt="Foto 6">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="imagen/imagen7.jpg" class="d-block w-100" alt="Foto 7">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="imagen/imagen8.jpg" class="d-block w-100" alt="Foto 8">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="imagen/imagen9.jpg" class="d-block w-100" alt="Foto 9">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="imagen/imagen10.jfif" class="d-block w-100" alt="Foto 10">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="imagen/imagen11.jfif" class="d-block w-100" alt="Foto 11">
+                    </div>
+                    <!-- Añade más imágenes según sea necesario -->
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Siguiente</span>
+                </button>
+            </div>
+
+            <!-- Imágenes estáticas -->
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <img src="imagen/Imagen1.png" class="img-fluid rounded shadow" alt="Foto 1">
+                </div>
+                <div class="col-md-4 mb-4">
+                    <img src="imagen/Tattoo-Art-Wallpapers-013.jpg" class="img-fluid rounded shadow" alt="Foto 2">
+                </div>
+                <div class="col-md-4 mb-4">
+                    <img src="imagen/imagen2.jpg" class="img-fluid rounded shadow" alt="Foto 3">
+                </div>
+                <!-- Añade más imágenes según sea necesario -->
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-white py-3 text-center">
+        <p>&copy; 2025 Fenix Tattos</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
